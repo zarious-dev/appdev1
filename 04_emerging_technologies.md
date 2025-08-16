@@ -1,33 +1,50 @@
-# Example: Internet of Things(IoT)
+# Emerging Technology: 5G Technology
 
 ## Purpose
-The main purpose of Internet of Things(IoT)
+5G wireless technology is meant to deliver higher multi-Gbps peak data speeds, ultra low latency, more reliability, massive network capacity, increased availability, and a more uniform user experience to more users. Higher performance and improved efficiency empower new user experiences and connects new industries. In addition, 5G mobile networks are an opportunity for manufacturers to create hyper-connected smart factories. 5G supports the Internet of Things, meaning factories can wirelessly connect several thousands of smart devices like cameras and sensors to automatically collect data in real-time.
+
 
 - **Reference**:  
-  _Source: Smith, J. (2023). "Artificial Intelligence in Education: Trends and Applications." EdTech Magazine. Retrieved from [https://www.edtechmagazine.com/higher/article/2023/02/artificial-intelligence-education](https://www.edtechmagazine.com/higher/article/2023/02/artificial-intelligence-education)_
+  _Source: What is 5G? (n.d.). "Everything You Need to Know". Qualcomm. Retrieved from [https://www.qualcomm.com/5g/what-is-5g#](https://www.qualcomm.com/5g/what-is-5g#)_
+  
+  David. (2025). "What is the purpose of IoT?". DeepSea. Retrieved from [https://www.deepseadev.com/en/blog/what-is-iot-purpose/](https://www.deepseadev.com/en/blog/what-is-iot-purpose)_
 
 ## Usage
-- **In Education**:  
-  AI is utilized in education to personalize learning experiences. Platforms like **Duolingo** use AI to tailor language lessons based on user progress. AI algorithms analyze student performance in real-time and adjust lesson difficulty accordingly. Similarly, **Squirrel AI** provides adaptive learning systems that modify content to suit a student's learning pace and understanding.
+- **In Education**: 
 
-  - **Reference**:  
-    _Source: “AI-Powered Personalized Learning with Squirrel AI.” The Hechinger Report, 2023. Retrieved from [https://www.hechingerreport.org/squirrel-ai-adaptive-learning/](https://www.hechingerreport.org/squirrel-ai-adaptive-learning/)
+  Students are able to engage with high-quality educational material at any time, from anywhere, defying conventional impediments to learning. Functions such as Artificial Intelligence (AI)-powered tutoring, gamification, and real-time collaboration tools promote participation and retention, making learning more interactive and productive. In **Guangzhou University Town**,  the private network is supporting smart teaching, smart labs, smart stadiums, big data platforms and seamless mobile access to university intranets.
+  
+
+
+  - **References**:  
+    _Source: 5G Brings Crucial Capacity to Mega Cities. (n.d.). "GSMA 5G Transformation Hub". Retrieved from [https://www.gsma.com/5ghub/smartoldcity/](https://www.gsma.com/5ghub/smartoldcity/)_
+
+    _Source: Das, S. (2025, March 6). "The role of 5G technology in advancing mobile learning". eLearning Industry. Retrieved from [https://elearningindustry.com/the-role-of-5g-technology-in-advancing-mobile-learning](https://elearningindustry.com/the-role-of-5g-technology-in-advancing-mobile-learning)_
+
+    
 
 - **In IT**:  
-  In IT, AI powers many innovations like automated customer service (e.g., chatbots) and data analytics. **IBM Watson** is used by companies for its AI-driven insights in fields like healthcare, finance, and IT infrastructure. Additionally, AI plays a critical role in **cybersecurity**, where it detects and neutralizes threats faster than traditional methods.
+  In IT industry uses 5G not just for faster internet, but for building new systems, smarter automation, and better services. It reduces lag for cloud apps, AI, and real-time processing. **Audi & Ericsson** 5G connects robots, machines, and sensors on the factory floor in real-time.
+  
 
   - **Reference**:  
-    _Source: Watson, K. (2023). “How AI is Revolutionizing Cybersecurity.” TechCrunch. Retrieved from [https://techcrunch.com/2023/03/ai-cybersecurity/](https://techcrunch.com/2023/03/ai-cybersecurity/)_
+      _Source: "Achieving industrial automation protocols with 5G URLLC". (n.d.). Ericsson. Retrieved from [https://www.ericsson.com/en/cases/2020/accelerate-factory-automation-with-5g-urllc](https://www.ericsson.com/en/cases/2020/accelerate-factory-automation-with-5g-urllc)_
 
 ## Examples
 
 - **In Education**:  
-  **Duolingo** uses AI algorithms to provide personalized language learning pathways based on how well users are progressing with their lessons. The app’s AI adapts its teaching techniques to match the learner’s speed and understanding.
+  **University of Surrey** uses Edge Computing & Cloud-Native Core Network that enables real-time applications—from live VR lectures to on-demand virtual environments. It also trains students in modern networking and edge computing technologies integral to future IT systems.
+  
 
   - **Reference**:  
-    _Source: Duolingo Blog (2023). “The Role of AI in Language Learning.” Retrieved from [https://www.duolingo.com/blog/ai-language-learning](https://www.duolingo.com/blog/ai-language-learning)_
+    _Source: 5G/6G campus testbed | University of Surrey. (n.d.). Retrieved from [https://www.surrey.ac.uk/institute-communication-systems/facilities/campus-testbed](https://www.surrey.ac.uk/institute-communication-systems/facilities/campus-testbed)_
+    
 
 - **In IT**:  
-  **Google DeepMind** uses AI to optimize operations in Google's data centers by reducing energy consumption, demonstrating how AI can contribute to operational efficiency in large-scale IT systems.
 
- 
+  **Audi & Ericsson** 
+  uses smart manufacturing with 5G to create a smart factory, where robots and humans work together safely, production lines are more flexible, and massive real-time data sharing improves efficiency.
+  
+
+  - **Reference**:  
+    _Source: "Achieving industrial automation protocols with 5G URLLC". (n.d.). Ericsson. Retrieved from [https://www.ericsson.com/en/cases/2020/accelerate-factory-automation-with-5g-urllc](https://www.ericsson.com/en/cases/2020/accelerate-factory-automation-with-5g-urllc)_
