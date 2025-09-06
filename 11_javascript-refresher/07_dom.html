@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom html</title>
+</head> 
+
+<body>
+    <button id="colorBtn">Change the Background Color</button>
+    <p id="colorDisplay"></p>
+    <p id="timeOutMessage"></p>
+
+    <script>
+        document.getElementById("colorBtn").addEventListener('click', function() {
+            const color = prompt("What's your favorite color?")
+
+            if (color) {
+                document.body.style.backgroundColor = color
+                document.getElementById('colorDisplay').innerText = `Your favorite color: ${color}`
+            }
+        })
+
+        setTimeout(function() {
+            document.getElementById('timeOutMessage').innerText = "This message appears after 2 seconds"
+        }, 2000)
+    </script>   
+</body>
+</html>
