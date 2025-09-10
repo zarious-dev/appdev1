@@ -1,2 +1,6 @@
 Line 1
 Line 2
+
+Realization: I noticed that after entering git revert HEAD command, a prompt opened(that i dont know what it is. i watched clips to exit).
+i checked vs code and line 3 was deleted. i entered git log --oneline, the commit in line 3 was still there ("Add Line 3"). 
+The head is also in the commited "Add Line 3"
