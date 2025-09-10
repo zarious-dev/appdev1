@@ -1,0 +1,4 @@
+Realization:
+After using git merge feature, I noticed that it only keeps the commit history 
+and combines the same commit message?
+
