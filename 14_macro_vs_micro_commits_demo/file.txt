@@ -1,0 +1,3 @@
+Realization: 
+I noticed that when you do macro commits, all files that are included in that commit will be affected once there is a modification. 
+In this case, git reset hard is used and all of it were deleted. When you do micro commits, each file will be safe once there is a modification. 
