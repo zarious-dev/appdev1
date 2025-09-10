@@ -1,2 +1,6 @@
 Line 1
 Line 2
+
+Realization: I noticed that after using git reset --hard <line2>, line 3 was deleted
+as well as its commit message. The commit/s after where you use git reset(on a specific commit),
+will also be deleted
