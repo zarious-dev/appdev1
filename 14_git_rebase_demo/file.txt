@@ -1,0 +1,2 @@
+Realization:
+(a bit confusing) I noticed that after using git rebase main, the commit history looks fine, as if nothing happened.
