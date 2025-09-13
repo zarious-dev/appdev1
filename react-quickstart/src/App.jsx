@@ -1,16 +1,18 @@
 import './App.css'
 
-function MyButton() {  
+function VitePage() {  
   return (
-  <button>Click Me!</button>
+    <>
+    <h1>Vite Page</h1>
+    <p>This is the vite page.</p> 
+    </>  
   )
 }
 
 function App() {
   return (
     <>
-    <h1>Hello, World!</h1>
-    <MyButton />    
+    <VitePage />    
     </>
   )
 }
