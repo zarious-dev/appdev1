@@ -1,20 +1,13 @@
 import './App.css'
 
-function VitePage() {  
+function AboutPage() {
   return (
     <>
-    <h1>Vite Page</h1>
-    <p>This is the vite page.</p> 
-    </>  
-  )
-}
-
-function App() {
-  return (
-    <>
-    <VitePage />    
+      <h1>About</h1>
+      <p>Hello there.<br />How do you do?</p>
+      <img className='avatar' style={{ borderRadius: '50%' }}/>
     </>
   )
 }
 
-export default App
+export default AboutPage
