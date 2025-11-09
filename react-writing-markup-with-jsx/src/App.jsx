@@ -1,35 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+//this will not work because there are rules to follow 
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function TodoList() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    //missing opening fragment tag <> or <div>
+    <h1>Hedy Lamarr's Todos</h1>
+    <img 
+      src="https://i.imgur.com/yXOvdOSs.jpg" 
+      alt="Hedy Lamarr" 
+      class="photo" //class should be className
+    > //missing closing tag
+    <ul>
+      <li>Invent new traffic lights        //missing closing </li> tag
+      <li>Rehearse a movie scene           //missing closing </li> tag
+      <li>Improve the spectrum technology  //missing closing </li> tag
+    </ul>
+    //missing closing fragment tag </> or </div>
+  );
 }
-
-export default App
