@@ -17,7 +17,7 @@ function TodoItem ({ todo }) {
       <span style={{ textDecoration: todo.completed ? "line-through" : "none" }}>
         {todo.title}
       </span>
-      <button onClick={handleDelete}>Delete</button>
+      <button onClick={handleDelete} style={{ margin: "5px" }}>Delete</button>
     </li>
   )
 }
