@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function Login () {
+function Login() {
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
     const [users, setUsers] = useState([])
@@ -9,8 +9,8 @@ function Login () {
 
     useEffect(() => {
         fetch("https://jsonplaceholder.typicode.com/users?_limit=2")
-        .then(response => response.json())
-        .then(data => setUsers(data))
+            .then(response => response.json())
+            .then(data => setUsers(data))
     }, [])
 
     function handleLogin() {
@@ -31,12 +31,17 @@ function Login () {
     }
 
     return (
-        <div>
-            <h2>Login</h2>
+        <div
+            style={{
+                padding: "20px",
+                textAlign: "left"
+            }}
+        >
+            <h2>Login </h2>
 
-            <input type="text" placeholder="Enter username (E.g., Bret)" value={username} onChange={(e) => setUsername(e.target.value)} />
+            <input type="text" placeholder="Enter username (E.g., Bret)" value={username} onChange={(e) => setUsername(e.target.value)} style={{ marginBottom: "5px" }} />
             <br />
-            <input type="password" placeholder="Enter password" value={password} onChange={(e) => setPassword(e.target.value)} />
+            <input type="password" placeholder="Enter password" value={password} onChange={(e) => setPassword(e.target.value)} style={{ marginBottom: "10px" }} />
             <br />
             <button onClick={handleLogin}>Login</button>
         </div>
