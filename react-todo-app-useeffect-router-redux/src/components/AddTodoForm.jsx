@@ -19,7 +19,7 @@ function AddTodoForm () {
         onChange={(e) => setTitle(e.target.value)}
         placeholder="Add a new task"
       />
-      <button onClick={handleAdd}>Add</button>
+      <button onClick={handleAdd} style={{ marginLeft: "10px" }}>Add</button>
     </div>
   )
 }
