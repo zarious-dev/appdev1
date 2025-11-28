@@ -4,7 +4,7 @@ import { fetchTodos } from "../features/todos/todosSlice"
 import AddTodoForm from "../components/AddTodoForm"
 import TodoList from "../components/TodoList"
 
-function Todos () {
+function Todos() {
     const dispatch = useDispatch()
     const todos = useSelector(state => state.todos.items)
 
@@ -13,7 +13,12 @@ function Todos () {
     }, [dispatch])
 
     return (
-        <div>
+        <div
+            style={{
+                padding: "20px",
+                textAlign: "left"
+            }}
+        >
             <h1>Todos</h1>
             <AddTodoForm />
             <TodoList todos={todos} />
